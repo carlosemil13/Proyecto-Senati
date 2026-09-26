@@ -1,0 +1,27 @@
+/* El selector Universal*/
+/* 1. Primero declaras la fuenta - Fuera del sector * */ 
+@font-face {
+    font-family: "PoppinsLocal";
+    src: url("../fonts/Poppins/OFL.txt") format("truetype"); 
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 2. Luego aplicas a Todo con el selector universal */ 
+*{
+    font-family: "PoppinsLocal", Arial, sans-serif;
+    margin: 0; /* En celular ponemos los margenes en 0 para asi poder editar a nuestro gusto*/
+    padding: 0;/* En celular ponemos los rellenos en 0 para asi poder editar a nuestro gusto*/
+    box-sizing: border-box; /* El comportamiento por defecto de los navegadores */
+}
+body{
+    background-color: #000000; /* Color del fondo negro*/ 
+}
+header{
+    background-color: #ffff;
+    height: 55px; /* altura de la barra de Menú*/ 
+    display: flex;
+    padding: 0 16px; 
+    }
+    /* class="img-logo
